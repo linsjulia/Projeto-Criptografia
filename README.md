@@ -1,13 +1,13 @@
-# 🕵️‍♀️ Criptografia e Machine Learning: Jogo da Imitação
+# Descoberta: Criptografia
 
 <div style="background:#1e1e2f; color:#ffffff; padding:15px; border-radius:10px;">
-Bem-vindo ao <strong>Jogo da Imitação</strong>, um projeto interativo de <strong>Machine Learning em JavaScript</strong>!<br>
-Aqui, você treina um modelo para <strong>descobrir senhas criptografadas</strong> usando diferentes algoritmos de cifra. 💻🔐
+Um projeto interativo de <strong>Machine Learning em JavaScript</strong>!<br>
+Aqui, você treina um modelo para <strong>descobrir senhas criptografadas</strong> usando diferentes algoritmos de cifra.
 </div>
 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 <div style="background:#fffbdd; padding:10px 15px; border-left:6px solid #fbbc04; border-radius:5px;">
 <ul>
@@ -17,30 +17,11 @@ Aqui, você treina um modelo para <strong>descobrir senhas criptografadas</stron
 </ul>
 </div>
 
-> 💡 Inspirado no conceito do **Jogo da Imitação** de Alan Turing.
+> Inspirado no conceito do **Jogo da Imitação** de Alan Turing.
 
 ---
 
-## 🗂 Estrutura do Projeto
-
-<div style="background:#e3f2fd; padding:10px 15px; border-left:6px solid #2196f3; border-radius:5px;">
-<pre style="background:#e3f2fd; color:#0d47a1;">
-CRIPT/
-│
-├─ imagens/           → arquivos de imagem usados no jogo
-├─ crypto-model.js    → código do modelo ML e dataset
-├─ crypto-ui.js       → interface e interação com o usuário
-├─ crypto-utils.js    → funções de criptografia e vetorização
-├─ index.html         → página principal
-├─ input-btn.css      → estilos dos botões
-├─ input.css          → estilos gerais de inputs
-└─ output.css         → estilos da saída do resultado
-</pre>
-</div>
-
----
-
-## 🚀 Como Usar
+## Como Usar
 
 <div style="background:#f0f4c3; padding:10px 15px; border-left:6px solid #cddc39; border-radius:5px;">
 <ol>
@@ -55,7 +36,7 @@ CRIPT/
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <div style="display:flex; flex-wrap:wrap; gap:10px;">
 <span style="background:#ffebee; color:#c62828; padding:5px 10px; border-radius:5px;">JavaScript</span>
@@ -64,20 +45,9 @@ CRIPT/
 <span style="background:#fff3e0; color:#ef6c00; padding:5px 10px; border-radius:5px;">HTML5 & CSS3</span>
 </div>
 
----
-
-## ✨ Dicas
-
-<div style="background:#fce4ec; padding:10px 15px; border-left:6px solid #d81b60; border-radius:5px;">
-<ul>
-<li>Experimente diferentes senhas criptografadas. 🔐</li>
-<li>Observe como o modelo aprende padrões de criptografia. 📊</li>
-<li>Ideal para aprender ML, criptografia e lógica de forma divertida! 🎮</li>
-</ul>
-</div>
 
 ---
 
 <div style="text-align:center; margin-top:20px; background:#e0f7fa; padding:15px; border-radius:10px;">
-Desenvolvido com ❤️ por <strong>[Seu Nome]</strong>
+Desenvolvido com linsjulia
 </div>
