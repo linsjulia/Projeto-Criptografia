@@ -48,6 +48,8 @@ Aqui, você treina um modelo para <strong>descobrir senhas criptografadas</stron
 
 ---
 
+Espero que goste!
+
 <div style="text-align:center; margin-top:20px; background:#e0f7fa; padding:15px; border-radius:10px;">
 Desenvolvido com linsjulia
 </div>
