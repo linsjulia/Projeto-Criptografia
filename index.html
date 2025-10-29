@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desvendando Padrão de Criptografia</title>
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="input-btn.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  body{
+      padding: 0;
+      margin: 0;
+      background-image: url(./imagens/eastman-childs-CEtIM994vaI-unsplash.jpg);
+      background-size: cover;  
+  }
+
+  .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: aliceblue;
+      gap: 30px;
+      padding: 50px;
+  }
+
+  button{
+      cursor: pointer;
+      background-color: blueviolet;
+      padding: 10px;
+      border-radius: 15px;
+  }
+
+  input{
+      background-color: blue;
+      padding: 10px;
+      border-radius: 10px;
+  }
+
+  input::placeholder{
+      color: aliceblue;
+  }
+
+  h1{
+    font-size: 30px;
+    bottom: 10%;
+    position: relative;
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+  }
+
+    #out {
+        width: 600px;
+        height: 300px;
+        font-size: 19px;
+        overflow: auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-family: monospace;
+        border-radius: 20px;
+    }
+
+
+</style>
+
+<body>
+  <div class="w-full h-screen justify-center main">
+
+    <h1>DESCUBRA A CRIPTOGRAFIA</h1>
+    <div id="poda">
+      <div class="glow"></div>
+      <div class="darkBorderBg"></div>
+      <div class="darkBorderBg"></div>
+      <div class="darkBorderBg"></div>
+
+      <div class="white"></div>
+      <div class="border"></div>
+
+      <div id="main">
+
+        <input placeholder="Descubra" type="text" name="text" class="input" id="kw" />
+        <div id="input-mask"></div>
+        <div id="pink-mask"></div>
+
+      </div>
+      
+    </div>
+     <div id="controls">
+          <button id="btnTreinar">Treinar IA</button>
+          <button id="btnPrever">Prever Cripto</button>
+          <button id="btnLimpar">Limpar</button>
+
+          <span id="trainStatus" style="margin-left:10px; font-family:monospace; color:#fff;"></span>
+        </div>
+
+    <div id="out" style="margin-top:20px; color:#fff; font-family:monospace;"></div>
+  </div>
+
+
+
+<script type="module" src="./crypto-utils.js"></script>
+<script type="module" src="./crypto-model.js"></script>
+<script type="module" src="./crypto-ui.js"></script>
+
+</body>
+
